@@ -33,3 +33,27 @@ console.log(booleanIsLoggedIn);
 // "" => false
 
 // "Ram ji" => True
+
+
+/**************************  Memory  ************************* */
+
+// Stack(Primitives) & Heap (Non primitive)
+
+let myYouTubeName = "hiteshchoudharydotcom"
+
+let anotherName = myYouTubeName;
+
+anotherName = "shreya singh"
+
+console.log(anotherName);  // o/p= shreya singh
+console.log(myYouTubeName); //0/p = hiteshchoudharydotcom
+
+let userOne = {
+    email: "user@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "shreya@yopmail.com"
+console.log(userOne); // o/p = shreya@yopmail.com
+console.log(userTwo); // o/p = shreya@yopmail.com
